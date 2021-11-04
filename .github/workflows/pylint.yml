@@ -21,6 +21,8 @@ jobs:
         pip install requests
         pip install flask
         pip install psutil
+        pip install aiohttp
+        pip install asyncio
     - name: Analysing the code with pylint
       run: |
         python runner/`ls -R|grep .py$|xargs`
