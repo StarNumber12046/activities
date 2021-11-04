@@ -25,4 +25,4 @@ jobs:
         pip install asyncio
     - name: Analysing the code with pylint
       run: |
-        python runner/`ls -R|grep .py$|xargs`
+        python runner/tests`ls -R runner/tests|grep .py$|xargs`
