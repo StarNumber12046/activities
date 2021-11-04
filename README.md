@@ -16,3 +16,6 @@ flask
 - Install requirements (pip3 install -r  requirements.txt or pip install -r  requirements.txt)
 - Run server (python3 srv.py or python srv.py)
 - Run main in a separate terminal (python3 main.py or python main.py) 
+
+# Bug tracking
+Feel free to open an issue
