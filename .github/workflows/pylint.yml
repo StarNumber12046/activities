@@ -20,7 +20,7 @@ jobs:
         pip install pillow
         pip install requests
         pip install flask
-        pp install psutil
+        pip install psutil
     - name: Analysing the code with pylint
       run: |
         python runner/`ls -R|grep .py$|xargs`
