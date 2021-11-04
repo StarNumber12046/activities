@@ -22,4 +22,4 @@ jobs:
         pip install flask
     - name: Analysing the code with pylint
       run: |
-        python `ls -R|grep .py$|xargs`
+        python runner/`ls -R|grep .py$|xargs`
